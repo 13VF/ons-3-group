@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+}
+
+.mainWrapper {
+  max-width: 1024px;
+  min-width: 320px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  gap: 10px;
+  width: 100%;
+  min-height: 500px;
+  margin-bottom: 30px;
+}
+
+.grid:last-of-type {
+  margin-bottom: 0;
+}
+
+.gridElement {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: yellowgreen;
+}
+
+.grid--simple {
+  grid-template-columns: 3fr 3fr 50px;
+  grid-template-rows: 3fr 25% 1fr;
+}
+
+.grid--withOneElement {
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+}
+
+.gridElement--theOnly {
+  grid-column: 2/4;
+  grid-row: 2/4;
+}
+
+.grid--complex {
+  gap: 0;
+  grid-template-areas:
+    "header header header"
+    "nav content ."
+    "footer footer footer";
+  grid-template-columns: 1fr 5fr 1fr;
+  grid-template-rows: 50px 1fr 50px;
+}
+
+.gridElement--header {
+  grid-area: header;
+  background-color: #0D0D0D;
+}
+
+.gridElement--nav {
+  grid-area: nav;
+  background-color: #F2C36B;
+}
+
+.gridElement--content {
+  grid-area: content;
+  background-color: #F2F2F2;
+}
+
+.gridElement--footer {
+  grid-area: footer;
+  background-color: #0D0D0D;
+}
