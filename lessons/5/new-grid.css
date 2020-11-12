@@ -1,0 +1,26 @@
+article.gridElement {
+  background-color: wheat;
+}
+
+#theOnlyRed {
+  background-color: red;
+}
+
+.gridElement.gridElement--yellow {
+  background-color: yellow;
+}
+
+.imageWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageInner {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.grid--crazy {
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+}
