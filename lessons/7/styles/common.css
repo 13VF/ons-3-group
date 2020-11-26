@@ -1,0 +1,13 @@
+.button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 64px;
+  padding: 22px 32px;
+  border: none;
+  border-radius: 8px;
+  font-size: 22px;
+  line-height: 20px;
+  background: var(--c-ozon-blue);
+  color: var(--c-white);
+}
