@@ -1,0 +1,25 @@
+@import './normalize.css';
+@import './font.css';
+@import './variables.css';
+@import './common.css';
+@import './header.css';
+@import './hero.css';
+@import './courses.css';
+@import './request.css';
+
+.mainWrapper {
+    --side-gap: 92px;
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-areas: 
+    '. header .'
+    '. heroMain .'
+    '. courses .'
+    '. heroSecond .'
+    'request request request';
+    grid-template-columns: var(--side-gap) 1fr var(--side-gap);
+    font-family: var(--f-reg);
+    color: var(--c-midnight);
+}
