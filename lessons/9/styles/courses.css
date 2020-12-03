@@ -1,11 +1,13 @@
 .courses {
   grid-area: courses;
+  width: 100%;
   min-height: 655px;
-  padding: 80px 0;
+  padding: 80px 20px;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow: hidden;
 }
 
 .courses__title {
@@ -15,13 +17,17 @@
 }
 
 .courses__container {
+  width: 100%;
+  padding: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow-x: auto;
 }
 
 .courses__item {
-  height: 376px;
+  flex-shrink: 0;
+  min-height: 376px;
   width: 376px;
   margin-right: 24px;
 	border: 1px solid var(--c-mystic);
@@ -78,4 +84,21 @@
 	line-height: 24px;
 	letter-spacing: 0.7px;
 	text-decoration: none;
+}
+
+@media (max-width: 1400px) {
+  .courses__container {
+    height: 430px;
+  }
+
+  .courses__item {
+    width: 276px;
+    height: 100%;
+  }
+}
+
+@media (max-width: 1040px) {
+  .courses__container {
+    justify-content: flex-start;
+  }
 }

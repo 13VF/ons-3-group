@@ -28,3 +28,47 @@
     line-height: 26px;
     font-family: var(--f-bold);
 }
+
+.header__menuButton {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+    .header__navigation {
+        max-width: 440px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .header {
+        padding: 0 16px;
+    }
+
+    .header__tagline {
+        display: none;
+    }
+}
+
+@media (max-width: 720px) {
+    .header {
+        min-height: 76px;
+    }
+
+    .header__navigation {
+        display: none;
+    }
+    
+    .header__mainLogoImage {
+        width: 120px;
+        height: 38px;
+    }
+
+    .header__menuButton {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

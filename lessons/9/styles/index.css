@@ -26,3 +26,15 @@
     font-family: var(--f-reg);
     color: var(--c-midnight);
 }
+
+@media (max-width: 1508px) {
+    .mainWrapper {
+        --side-gap: 46px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .mainWrapper {
+        --side-gap: 0;
+    }
+}
