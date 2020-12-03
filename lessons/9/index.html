@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ozon New Skills</title>
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+    <div class="mainWrapper">
+
+        <header class="header">
+            <div class="header__mainLogo">
+                <img src="./img/logo.svg" alt="">
+            </div>
+            <nav class="header__navigation">
+                <a href="" class="header__navigationLink">Наши курсы</a>
+                <a href="" class="header__navigationLink">Преимущества</a>
+                <a href="" class="header__navigationLink">Оставить заявку</a>
+            </nav>
+            <div class="header__tagline">Это вам не школа!</div>
+        </header>
+
+        <section class="hero hero--main">
+            <div class="hero__info">
+                <h2 class="hero__infoTitle">
+                    Ozon New Skills
+                </h2>
+                <p class="hero__infoText">
+                    Поможем получить и прокачать навыки,
+                    которые будут полезны в текущей карьере
+                    или дадут старт новой!
+                </p>
+                <button class="button">Выбрать курс</button>
+            </div>
+        </section>
+
+        <section class="courses">
+            <h2 class="courses__title">Наши курсы</h2>
+            <div class="courses__container">
+                <div class="courses__item">
+                    <div class="courses__itemImage courses__itemImage--bs"></div>
+                    <div class="courses__itemInfo">
+                        <h4 class="courses__itemTitle">Бизнес-аналитика</h4>
+                        <div class="courses__itemText">Изучение основных инструментов<br>и механизмов бизнес-аналитики</div>
+                        <a href="#" class="courses__itemLink">Узнать больше</a>
+                    </div>
+                </div>
+                <div class="courses__item">
+                    <div class="courses__itemImage courses__itemImage--py"></div>
+                    <div class="courses__itemInfo">
+                        <h4 class="courses__itemTitle">Python 18+</h4>
+                        <div class="courses__itemText">Основы программирования и знакомство с возможностями языка Python</div>
+                        <a href="#" class="courses__itemLink">Узнать больше</a>
+                    </div>
+                </div>
+                <div class="courses__item">
+                    <div class="courses__itemImage courses__itemImage--fe"></div>
+                    <div class="courses__itemInfo">
+                        <h4 class="courses__itemTitle">Frontend-разработчик</h4>
+                        <div class="courses__itemText">Курс для новичков, которые хотят начать свой путь в Frontend-разработке</div>
+                        <a href="#" class="courses__itemLink">Узнать больше</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="hero hero--second">
+            <div class="hero__info">
+                <h2 class="hero__infoTitle">
+                    Сложно определиться?
+                </h2>
+                <p class="hero__infoText">
+                    Оставьте контактные данные
+                    и наши специалисты помогут понять,
+                    что вам ближе.
+                </p>
+                <button class="button">Оставить заявку</button>
+            </div>
+        </section>
+
+        <section class="adv">
+			<h2 class="adv__title">Преимущества</h2>
+			<div class="adv__container">
+				<div class="adv__item">
+                    <img class="adv__itemImage" src="./img/adv-lead.svg" alt="">
+                    <h4 class="adv__itemTitle">Лидерство</h4>
+                    <p class="adv__itemText">Образовательный проект от лидера российского<br>e-com</p>
+				</div>
+				<div class="adv__item">
+                    <img class="adv__itemImage" src="./img/adv-exp.svg" alt="">
+                    <h4 class="adv__itemTitle">Экспертиза</h4>
+                    <p class="adv__itemText">Преподаватели<br>с уникальным опытом</p>
+				</div>
+				<div class="adv__item">
+                    <img class="adv__itemImage" src="./img/adv-timer.svg" alt="">
+                    <h4 class="adv__itemTitle">Актуальность</h4>
+                    <p class="adv__itemText">Погружение в мир современных профессий</p>
+				</div>
+				<div class="adv__item">
+                    <img class="adv__itemImage" src="./img/adv-kur.svg" alt="">
+                    <h4 class="adv__itemTitle">Кураторы</h4>
+                    <p class="adv__itemText">Поддержка преподавателя и куратора на всех этапах обучения</p>
+                </div>
+			</div>
+		</section>
+
+        <section class="request">
+            <h2 class="request__header">
+                Оставить заявку<br/>
+                на бесплатное пробное занятие
+            </h2>
+            <div class="request__form">
+                <input type="text" class="input input--valid request__formElement" placeholder="Город" value="Москва">
+                <input type="tel" class="input input--valid request__formElement" placeholder="Введите номер телефона" value="+ 7 900 666 15 15">
+                <input type="email" class="input input--valid request__formElement" placeholder="Введите ваш email" value="ons@ozon.ru">
+                <input type="text" class="input input--valid request__formElement" placeholder="Имя и Фамилия" value="Рами Эль-Ауста">
+                <div class="select request__formElement">
+                    <span class="select__text">Выберите курс</span>
+                    <img class="select__icon" src="./img/icon-vector.svg">
+                    <ul class="select__dropdown">
+                        <li class="select__dropdownItem">Select 1</li>
+                        <li class="select__dropdownItem select__dropdownItem--active">Select 1</li>
+                        <li class="select__dropdownItem">Select 1</li>
+                        <li class="select__dropdownItem">Select 1</li>
+                        <li class="select__dropdownItem">Select 1</li>
+                        <li class="select__dropdownItem">Select 1</li>
+                    </ul>
+                </div>
+                <input type="text" class="input input--valid" placeholder="Ваш комментарий">
+            </div>
+            <button class="button">Отправить заявку</button>
+        </section>
+    </div>
+</body>
+</html>

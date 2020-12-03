@@ -1,0 +1,30 @@
+.header {
+    grid-area: header;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 124px;
+}
+
+.header__navigation {
+    display: flex;
+    justify-content: space-between;
+    max-width: 520px;
+    width: 100%;
+    font-family: var(--f-reg);
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.header__navigationLink {
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration: none;
+    color: var(--c-midnight);
+}
+
+.header__tagline {
+    font-size: 22px;
+    line-height: 26px;
+    font-family: var(--f-bold);
+}
