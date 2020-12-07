@@ -1,0 +1,63 @@
+@import './normalize.css';
+@import './font.css';
+@import './variables.css';
+
+.mainWrapper {
+  --side-gap: 92px;
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-areas: 
+  '. wrapper1 .'
+  '. wrapper2 .'
+  '. wrapper3 .';
+  grid-template-columns: var(--side-gap) 1fr var(--side-gap);
+  font-family: var(--f-reg);
+  color: var(--c-midnight);
+}
+
+.wrapper {
+  min-height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper--1 {
+  grid-area: wrapper1;
+}
+
+.wrapper--2 {
+  grid-area: wrapper2;
+}
+
+.wrapper--3 {
+  grid-area: wrapper3;
+}
+
+.button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 64px;
+  padding: 22px 32px;
+  border: none;
+  border-radius: 8px;
+  font-size: 22px;
+  line-height: 20px;
+  background: var(--c-ozon-blue);
+  color: var(--c-white);
+  outline: none;
+  cursor: pointer;
+}
+
+.button--alt {
+  color: var(--c-dark-space);
+  background: var(--c-cadet-blue);
+}
+
+.image {
+  max-width: 300px;
+  max-height: 300px;
+}
