@@ -1,0 +1,15 @@
+{
+  "name": "lesson-11",
+  "version": "1.0.0",
+  "description": "writing code with my students",
+  "main": "for-console.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rami El-Austa",
+  "license": "MIT",
+  "dependencies": {
+    "vue": "2.6.12"
+  },
+  "devDependencies": {}
+}
