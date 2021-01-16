@@ -1,0 +1,10 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+}
+
+.element {
+  width: 50px;
+  border: 1px solid cadetblue;
+}
