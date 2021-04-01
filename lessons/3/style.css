@@ -16,7 +16,7 @@
   padding: 30px 30px 60px;
   margin: 0 15px 30px;
   border: 1px solid black;
-  background-color: #f2f3f5;
+  /*background-color: #f2f3f5;*/
   border-radius: 30px;
 }
 
@@ -28,6 +28,7 @@
 .card_button {
   padding: 6px 12px;
   border: none;
-  background-color: rgb(224, 175, 140);
+  background-color: #005cfe;
+  color: #ffffff;
   border-radius: 3px;
 }
